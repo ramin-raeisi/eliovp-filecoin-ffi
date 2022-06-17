@@ -34,7 +34,7 @@ bellperson = { git = "https://github.com/ramin-raeisi/eliovp-fil-zk.git", branch
 serde_json = "1.0.46"
 thread_binder = { git = "https://github.com/ramin-raeisi/eliovp-thread_binder.git", branch = "master" }
 num_cpus = "1.13.0"
-rust-gpu-tools = { git = "https://github.com/filecoin-project/rust-gpu-tools.git", branch = "master"}
+rust-gpu-tools = { git = "https://github.com/ramin-raeisi/eliovp-rust-gpu-tools.git", branch = "master"}
 
 storage-proofs-porep = { package = "storage-proofs-porep", git = "https://github.com/ramin-raeisi/eliovp-rust-fil-proofs", branch = "master", default-features = false }
 
