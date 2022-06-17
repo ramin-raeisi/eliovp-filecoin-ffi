@@ -30,15 +30,15 @@ rayon = "1.2.1"
 rayon-core = "1.6.1"
 rayon-futures = "0.1.1"
 anyhow = "1.0.23"
-bellperson = { git = "ssh://git@github.com/nilfoundation/eliovp-fil-zk.git", branch = "master" }
+bellperson = { git = "https://github.com/ramin-raeisi/eliovp-fil-zk.git", branch = "master" }
 serde_json = "1.0.46"
-thread_binder = { git = "ssh://git@github.com/nilfoundation/thread_binder.git", branch = "master" }
+thread_binder = { git = "https://github.com/ramin-raeisi/thread_binder.git", branch = "master" }
 num_cpus = "1.13.0"
-rust-gpu-tools = { git = "ssh://git@github.com/NilFoundation/rust-gpu-tools", branch = "master"}
+rust-gpu-tools = { git = "https://github.com/ramin-raeisi/rust-gpu-tools", branch = "master"}
 
-storage-proofs-porep = { package = "storage-proofs-porep", git = "ssh://git@github.com/NilFoundation/eliovp-rust-fil-proofs", branch = "master", default-features = false }
+storage-proofs-porep = { package = "storage-proofs-porep", git = "https://github.com/ramin-raeisi/eliovp-rust-fil-proofs", branch = "master", default-features = false }
 
-filecoin-proofs-api = { git = "ssh://git@github.com/nilfoundation/eliovp-rust-filecoin-proofs-api.git", branch = "master", default-features = false }
+filecoin-proofs-api = { git = "https://github.com/ramin-raeisi/eliovp-rust-filecoin-proofs-api.git", branch = "master", default-features = false }
 
 [build-dependencies]
 cbindgen = "= 0.14.0"
